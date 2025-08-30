@@ -1,0 +1,1992 @@
+/* 共通 */
+.zen-kaku-gothic-new-regular {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(-20deg, #C0DBFE 0%, #FDEAFF 100%) no-repeat;
+}
+
+#container {
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+    position: relative;
+    /* .starの親ポジション */
+    overflow: hidden;
+}
+
+/* 背景星ここから */
+.star {
+    width: 50px;
+    position: absolute;
+}
+
+.star img {
+    animation: stars 5s infinite linear;
+    animation-delay: 0;
+}
+
+.s01 {
+    width: 50px;
+    top: 3%;
+    left: 20px;
+}
+
+.s01 img {
+    transform: rotate(20deg);
+    animation-delay: 0;
+}
+
+.s02 {
+    width: 100px;
+    top: 10%;
+    right: 20px;
+}
+
+.s02 img {
+    transform: rotate(-10deg);
+    animation-delay: 0.5s;
+}
+
+.s03 {
+    width: 30px;
+    top: 12.5%;
+    left: 100px;
+}
+
+.s03 img {
+    transform: rotate(20deg);
+    animation-delay: 0.5s;
+}
+
+
+.s04 {
+    width: 30px;
+    top: 15.2%;
+    left: 20px;
+}
+
+.s04 img {
+    transform: rotate(-20deg);
+    animation-delay: 0.5s;
+}
+
+.s05 {
+    width: 60px;
+    top: 18%;
+    right: 20px;
+}
+
+.s05 img {
+    transform: rotate(20deg);
+    animation-delay: 1s;
+}
+
+.s06 {
+    width: 30px;
+    top: 20%;
+    right: 150px;
+}
+
+.s06 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s07 {
+    width: 50px;
+    top: 21%;
+    right: 30px;
+}
+
+.s07 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s08 {
+    width: 70px;
+    top: 23.8%;
+    left: 5px;
+    opacity: 0.7;
+}
+
+.s08 img {
+    transform: rotate(20deg);
+    animation-delay: 1s;
+}
+
+.s09 {
+    width: 30px;
+    top: 24.6%;
+    right: 30px;
+}
+
+.s10 {
+    width: 60px;
+    top: 26.3%;
+    right: 35px;
+    opacity: 0.6;
+}
+
+.s10 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s11 {
+    width: 50px;
+    top: 27.8%;
+    left: 30px;
+    opacity: 0.7;
+}
+
+.s12 {
+    width: 30px;
+    top: 30%;
+    right: 100px;
+    opacity: 0.6;
+}
+
+.s13 {
+    width: 80px;
+    top: 33%;
+    left: 30px;
+    opacity: 0.7;
+}
+
+.s13 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s14 {
+    width: 30px;
+    top: 37%;
+    right: 40px;
+}
+
+.s14 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s15 {
+    width: 60px;
+    top: 39.5%;
+    left: 10px;
+    opacity: 0.7;
+}
+
+.s15 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s16 {
+    width: 30px;
+    top: 41.5%;
+    right: 30px;
+    --de: 0.7s;
+}
+
+.s17 {
+    width: 30px;
+    top: 45%;
+    left: 30px;
+    --de: 0.7s;
+}
+
+.s18 {
+    width: 60px;
+    top: 46%;
+    right: 20px;
+    --de: 0.7s;
+    opacity: 0.7;
+}
+
+.s18 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s19 {
+    width: 50px;
+    top: 51%;
+    left: 30px;
+    --de: 0.7s;
+    opacity: 0.7;
+}
+
+.s19 img {
+    transform: rotate(-20deg);
+    animation-delay: 1s;
+}
+
+.s20 {
+    width: 80px;
+    top: 53%;
+    right: 20px;
+    --de: 0.7s;
+    opacity: 0.7;
+}
+
+.s20 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s21 {
+    width: 30px;
+    top: 59%;
+    left: 40px;
+    --de: 0.7s;
+}
+
+.s21 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s22 {
+    width: 50px;
+    top: 61.5%;
+    right: 50px;
+    opacity: 0.7;
+    --de: 0.7s;
+}
+
+.s22 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s23 {
+    width: 60px;
+    top: 64.5%;
+    left: 20px;
+    --de: 0.7s;
+}
+
+.s23 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s24 {
+    width: 30px;
+    top: 68%;
+    right: 30px;
+    opacity: 0.7;
+    --de: 0.7s;
+}
+
+.s24 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s25 {
+    width: 80px;
+    top: 71%;
+    right: 50px;
+    opacity: 0.7;
+    --de: 0.7s;
+}
+
+.s25 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s26 {
+    width: 30px;
+    top: 73.2%;
+    left: 70px;
+    --de: 0.7s;
+}
+
+.s27 {
+    width: 80px;
+    top: 74.5%;
+    left: 20px;
+    opacity: 0.7;
+    --de: 0.7s;
+}
+
+.s27 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s28 {
+    width: 50px;
+    top: 78.5%;
+    right: 30px;
+    opacity: 0.7;
+    --de: 0.7s;
+}
+
+.s28 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s29 {
+    width: 30px;
+    top: 78.8%;
+    left: 90px;
+    --de: 0.7s;
+
+}
+
+.s29 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s30 {
+    width: 90px;
+    top: 81%;
+    left: 10px;
+    opacity: 0.8;
+    --de: 0.7s;
+}
+
+.s30 img {
+    transform: rotate(-30deg);
+    animation-delay: 1s;
+}
+
+.s31 {
+    width: 70px;
+    top: 82.2%;
+    right: 20px;
+    opacity: 0.8;
+    --de: 0.7s;
+}
+
+.s31 img {
+    transform: rotate(10deg);
+    animation-delay: 1s;
+}
+
+.s32 {
+    width: 50px;
+    top: 84.8%;
+    left: 20px;
+    --de: 0.7s;
+}
+
+.s32 img {
+    transform: rotate(-10deg);
+    animation-delay: 1s;
+}
+
+.s33 {
+    width: 100px;
+    top: 87.5%;
+    left: 50px;
+    --de: 0.7s;
+}
+
+.s33 img {
+    transform: rotate(20deg);
+    animation-delay: 1s;
+}
+
+.s34 {
+    width: 30px;
+    top: 88.8%;
+    right: 150px;
+    --de: 0.7s;
+}
+
+.s34 img {
+    transform: rotate(-20deg);
+    animation-delay: 1s;
+}
+
+.s35 {
+    width: 120px;
+    top: 87.5%;
+    right: 10px;
+    opacity: 0.8;
+    --de: 0.7s;
+}
+
+.s35 img {
+    transform: rotate(-20deg);
+    animation-delay: 0.5s;
+}
+
+@keyframes stars {
+    0% {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.3) rotate(180deg);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.starBlue {
+    width: 20px;
+    position: absolute;
+}
+
+.sb01 {
+    top: 11%;
+    left: 50px;
+}
+
+.sb02 {
+    top: 13%;
+    left: 80px;
+}
+
+.sb03 {
+    top: 15.8%;
+    right: 20px;
+}
+
+.sb04 {
+    top: 20%;
+    left: 80px;
+}
+
+.sb05 {
+    top: 24%;
+    right: 100px;
+}
+
+.sb06 {
+    top: 30.8%;
+    left: 80px;
+}
+
+.sb07 {
+    top: 32%;
+    right: 80px;
+}
+
+.sb08 {
+    top: 33.7%;
+    left: 80px;
+}
+
+.sb09 {
+    top: 36%;
+    right: 10px;
+}
+
+.sb10 {
+    top: 41%;
+    left: 10px;
+}
+
+.sb11 {
+    top: 45%;
+    right: 10px;
+}
+
+.sb12 {
+    top: 50.2%;
+    left: 30px;
+}
+
+.sb13 {
+    top: 53.8%;
+    left: 110px;
+}
+
+.sb14 {
+    top: 55%;
+    right: 110px;
+}
+
+.sb15 {
+    top: 62%;
+    left: 50px;
+}
+
+.sb16 {
+    top: 65%;
+    right: 10px;
+}
+
+.sb17 {
+    top: 70%;
+    left: 60px;
+}
+
+.sb18 {
+    top: 74%;
+    right: 100px;
+}
+
+.sb19 {
+    top: 78%;
+    left: 20px;
+}
+
+.sb20 {
+    top: 80%;
+    right: 50px;
+}
+
+.sb21 {
+    top: 83.3%;
+    left: 90px;
+}
+
+.sb22 {
+    top: 84%;
+    right: 40px;
+}
+
+.sb23 {
+    top: 85.1%;
+    left: 50px;
+}
+
+/* 星ここまで */
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 10px;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 56px;
+    color: #fff;
+    filter: drop-shadow(10px 5px 5px #ccc);
+}
+
+.h2p {
+    font-size: 16px;
+    color: #0573C1;
+}
+
+h3 {
+    font-size: 24px;
+    color: #0573C1;
+}
+
+/* タイトルの白線 */
+section {
+    position: relative;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.whiteLine {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 202px;
+    left: 0;
+}
+
+
+/* ヘッダー */
+header {
+    max-width: 430px;
+}
+
+#header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: 1s ease-in;
+}
+
+#header.active {
+    top: -100%;
+}
+
+header #nav {
+    background-color: rgba(245, 246, 247, 0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 61%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: 0.3s;
+    color: #0573C1;
+    letter-spacing: 0.1rem;
+    z-index: 200;
+    transform: translateX(100%);
+}
+
+#nav li {
+    margin-bottom: 50px;
+    border-bottom: solid .8px #0573C1;
+}
+
+#nav .navSns {
+    border-bottom: none;
+    display: flex;
+    gap: 20px;
+}
+
+#nav .navSns img {
+    width: 30px;
+
+}
+
+#nav.active {
+    transform: translateX(0);
+}
+
+.header .logo a {
+    display: flex;
+    align-items: top;
+    gap: 0.5rem;
+    font-size: 10px;
+    color: #0573C1;
+}
+
+.header .logo a>img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+
+/* ハンバーガーメニュー */
+header .ham {
+    width: 70px;
+    height: 50px;
+    background-color: #C0DBFE;
+    border-radius: 40% 0 0 40%;
+    position: relative;
+    right: 0;
+    transition: 0.3s;
+}
+
+.ham.active {
+    position: fixed;
+    top: 20px;
+    right: 61%;
+}
+
+.ham .bar {
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #0573C1;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+.ham .bar:nth-child(1) {
+    transform: translate(-50%, calc(-50% - 10px));
+}
+
+.ham .bar:nth-child(3) {
+    transform: translate(-50%, calc(-50% + 10px));
+}
+
+.ham.active .bar:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: 0.2s;
+}
+
+.ham.active .bar:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transition: 0.2s;
+}
+
+.ham.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+/* 見学ボタン */
+.visitbtn {
+    position: fixed;
+    width: 150px;
+    height: auto;
+    right: 0;
+    top: 180px;
+    z-index: 100;
+    animation: moveUpAndDown 3.5s infinite;
+    cursor: pointer;
+}
+
+/* メインページ） */
+.blueShape {
+    /* relativeはsectionセレクタ */
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    z-index: -1;
+}
+
+.backGroundImg {
+    background: url(../img/value_title.png) no-repeat right/contain;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+/* 株式会社シリウスとは */
+.aset {
+    background: url(../img/h2Title_bg.png) no-repeat center/contain;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro {
+    background: url(../img/intro-bg.png) no-repeat center/contain;
+    height: 230px;
+}
+
+.intro p {
+    color: #333;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro P>span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0573C1;
+}
+
+.introImg {
+    width: 100px;
+    margin-left: auto;
+    margin-top: -50px;
+}
+
+
+/* 企業理念 */
+.purposeSec {
+    max-width: 430px;
+    padding-top: 0;
+}
+
+.purpose {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.purpose p {
+    text-align: left;
+}
+
+.purpose-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.purpose-title>span {
+    color: #0573C1;
+}
+
+.purpose-aside {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0573C1;
+    padding-right: 10px;
+}
+
+.purpose img {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.misson {
+    background-image: url(../img/mission-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    background-position: right 15px center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.vison {
+    background-image: url(../img/vision-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    background-position: left 15px center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.value {
+    background-image: url(../img/value-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    background-position: left 15px center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.value p {
+    margin-bottom: 20px;
+}
+
+/* moonLine */
+.moonLine {
+    width: 80%;
+    display: flex;
+    margin: 150px auto;
+    justify-content: space-around;
+}
+
+.moonLine img {
+    object-fit: contain;
+}
+
+
+/* 事業内容 */
+.businessSec {
+    max-width: 430px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.business td {
+    font-size: 10px;
+    color: #333;
+}
+
+
+/* シリウスの特徴 */
+.valuesSec {
+    max-width: 430px;
+    padding-top: 0;
+    line-height: 1.7;
+}
+
+.values-contain {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.values-contain2 {
+    display: block;
+    align-self: center;
+}
+
+.values-contain img {
+    width: 44%;
+}
+
+.star-aside {
+    color: #0573C1;
+}
+
+.values h2:nth-of-type(1) {
+    text-align: right;
+    position: relative;
+    margin-top: 130px;
+    margin-right: 14px;
+}
+
+.values h2:nth-of-type(1) .work-1 {
+    position: absolute;
+    top: -150px;
+    left: 5px;
+    width: 90%;
+}
+
+.values h2:nth-of-type(1) .aside-1 {
+    font-size: 70px;
+    color: rgba(255, 255, 255);
+    margin-right: 70px;
+}
+
+.valiues {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 500;
+    padding: 20px;
+    background-image: url(../img/sirius-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 在宅ワーク */
+.valuesSec .valuesTitle01 {
+    position: relative;
+    background: url(../img/zaitaku.png) no-repeat left center/contain;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+.valuesTitle01>h2 {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+}
+
+.blueShape01 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.textBack {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    width: 80%;
+    padding: 20px;
+    background-image: url(../img/sirius-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+/* 時差出勤 */
+.valuesSec .valuesTitle02 {
+    position: relative;
+    background: url(../img/zisa-syukkin.png) no-repeat right center/contain;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+.valuesTitle02>h2 {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+.p6Txt {
+    border-top: 1px dashed #333;
+    border-bottom: 1px dashed #333;
+    display: inline-block;
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+}
+
+.p6Txt p {
+    display: inline-block;
+}
+
+/* 資格取得 */
+.valuesSec .valuesTitle03 {
+    position: relative;
+    background: url(../img/shikaku.png) no-repeat right center/contain;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+.valuesTitle03>h2 {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+}
+
+
+/* 作業内容 */
+.worksSec {
+    max-width: 430px;
+    margin: 0px auto;
+    padding-top: 0px;
+    line-height: 1.7;
+}
+
+.works {
+    margin-top: -100px;
+}
+
+.worksSec .worksTitle01 {
+    position: relative;
+    background: url(../img/dater.png) no-repeat right center/contain;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+.worksTitle01>h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    padding-left: 10px;
+}
+
+.textBack2 {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    width: 90%;
+    padding: 20px;
+    background-image: url(../img/sirius-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto 80px;
+    text-align: justify;
+}
+
+.worksSec .worksTitle02 {
+    position: relative;
+    background: url(../img/list-up.png) no-repeat left center/contain;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+.worksTitle02>h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.worksSec .worksTitle03 {
+    position: relative;
+    background: url(../img/douga.png) no-repeat left center/contain;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+.worksTitle03>h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* 
+.works-2 {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    z-index: -1;
+}
+
+.works h2:nth-of-type(3) {
+    position: relative;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.works h2:nth-of-type(3) .aside-2 {
+    font-size: 70px;
+    color: rgba(255, 255, 255);
+    margin-right: 138px;
+}
+
+.works-3 {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    z-index: -1;
+}
+
+.works p:nth-of-type(1) {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: 500;
+    padding: 1.5rem 1rem;
+    background-image: url(../img/sirius-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 60px;
+    margin-bottom: 113px;
+}
+
+.works p:nth-of-type(2) {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: 500;
+    padding: 1.5rem 1rem;
+    background-image: url(../img/sirius-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 75px;
+    margin-bottom: 124px;
+    text-align: justify;
+}
+
+.works p:nth-of-type(3) {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: 500;
+    padding: 1.5rem 1rem;
+    background-image: url(../img/sirius-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 170px;
+    text-align: justify;
+} */
+
+
+
+
+/* https://mogumogu-design.com/make-rounded-table/ */
+
+table {
+    border: 1px solid #000;
+    border-collapse: separate;
+    overflow: hidden;
+    border-spacing: 0;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    width: 75%;
+    font-size: 10px;
+    margin: 0 auto;
+    margin-top: 43px;
+    margin-bottom: 97px;
+}
+
+table th,
+table td {
+    padding: 0.6em 1.5em;
+    vertical-align: middle;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+table th:last-child,
+table td:last-child {
+    border-right: none;
+}
+
+table th {
+    background: #DFF6FF;
+    width: 25%;
+    text-align: center;
+}
+
+table td {
+    background: rgba(255, 255, 255, 0.5);
+    width: 47%;
+}
+
+table tr:last-child th,
+table tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* フッター */
+footer {
+    width: 100%;
+    position: relative;
+}
+
+.engBtn {
+    background-color: #D1A8FF;
+    width: 350px;
+    border-radius: 60px;
+    height: 90px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 5px #aaa;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.08rem;
+}
+
+.litaBtn {
+    background-color: #FFAEEF;
+    width: 350px;
+    border-radius: 60px;
+    height: 90px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 5px #aaa;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.08rem;
+}
+
+.engBtn,
+.litaBtn {
+    margin-bottom: 30px;
+    transition: 0.3s ease-out;
+}
+
+.engBtn:hover,
+.litaBtn:hover {
+    box-shadow: none;
+}
+
+.engBtn a,
+.litaBtn a {
+    display: block;
+    height: 90px;
+    padding-top: 33px;
+}
+
+.outLink img {
+    width: 30px;
+}
+
+.footerText {
+    text-align: center;
+    color: #0573C1;
+    line-height: 1.5;
+    letter-spacing: 0.08rem;
+    margin: 50px 0;
+}
+
+.footerText>span {
+    font-size: 24px;
+}
+
+.source {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #0573C1;
+    line-height: 1.5;
+    letter-spacing: 0.08rem;
+    margin: 50px 0 50px;
+}
+
+.footerEnd {
+    background: url(../img/footerEnd-2.webp) no-repeat center top /cover;
+    width: 100%;
+    height: 300px;
+    padding: 50px 0;
+    position: relative;
+}
+
+.sns {
+    max-width: 230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}
+
+.sns img {
+    width: 35px;
+}
+
+.sns::after {
+    content: "";
+    display: block;
+    width: 200%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contactBtn {
+    margin-top: 60px;
+}
+
+.contactBtn a {
+    background-color: #C7DEFC;
+    border-radius: 60px;
+    border: 8px solid #fff;
+    max-width: 250px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 8px 5px #919191;
+    transition: 0.3s ease-in;
+}
+
+.contactBtn a:hover {
+    box-shadow: none;
+}
+
+.contactBtnText>span {
+    font-size: 14px;
+}
+
+.contactBtn img {
+    width: 20px;
+}
+
+
+@media screen and (min-width: 431px) {
+
+    /* 共通 */
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        max-width: 1000px;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+
+    .h2p {
+        font-size: 50px;
+    }
+
+    /* タイトルの白線 */
+    .whiteLine {
+        top: 259px;
+    }
+
+
+    /* ヘッダー */
+    .header {
+        /* max-width: 1000px; */
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .header .logo a {
+        display: block;
+        font-size: 10px;
+    }
+
+    .header .logo a>img {
+        width: 100px;
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+
+    .header .logo a p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    header .navGroup {
+        width: 100%;
+        display: flex;
+    }
+
+    header #nav {
+        background-color: transparent;
+        position: static;
+        height: 50px;
+        padding-top: 0;
+        padding-left: 0;
+        margin: 0 auto;
+        transform: none;
+    }
+
+    header #nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #nav li {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    #nav .navSns {
+        display: none;
+    }
+
+    header .ham {
+        display: none;
+    }
+
+    /* 見学ボタン */
+    .visitbtn {
+        right: 4vw;
+        top: 65vh;
+        width: 250px;
+    }
+
+    /* メインページ */
+    .blueShape {
+        /* relativeはsectionセレクタ */
+        width: 400px;
+        height: auto;
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        z-index: -1;
+    }
+
+    .backGroundImg {
+        height: 300px;
+        margin: 30PX 0 50PX;
+    }
+
+    /* タイトルの白線 */
+    .whiteLine {
+        top: 290px;
+    }
+
+    .intro {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .intro p {
+        font-size: 20PX;
+    }
+
+    .intro P>span {
+        font-size: 24px;
+    }
+
+    .intro p {
+        color: #333;
+        width: 70%;
+        margin: 0 auto;
+        line-height: 1.7;
+    }
+
+    .introImg {
+        width: 200px;
+        margin-left: auto;
+        margin-top: -180px;
+    }
+
+
+    /* 企業理念 */
+    .purposeSec {
+        max-width: 1000px;
+    }
+
+    .purpose {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .purpose p {
+        text-align: left;
+    }
+
+    .purpose-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .purpose-aside {
+        font-size: 20px;
+    }
+
+
+    .misson {
+        margin-bottom: 20px;
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    .vison {
+        margin-bottom: 20px;
+        padding: 40px;
+        font-size: 20px;
+    }
+
+
+    .value {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+
+    .value p {
+        margin-bottom: 20px;
+    }
+
+    /* moonLine */
+    .moonLine {
+        width: 500PX;
+        margin: 200px auto;
+        max-width: 1000PX;
+    }
+
+
+    /* 事業内容 */
+    .businessSec {
+        max-width: 1000px;
+    }
+
+    .business td {
+        font-size: 16px;
+    }
+
+
+    /* シリウスの特徴 */
+    .valuesSec {
+        max-width: 1000px;
+    }
+
+    .values-contain {
+        gap: 50px;
+        margin: 50px 0;
+    }
+
+    .values-contain img {
+        width: 30%;
+    }
+
+    .values-contain2 {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .values h2:nth-of-type(1) {
+        text-align: right;
+        position: relative;
+        margin-top: 130px;
+        margin-right: 20px;
+    }
+
+    .valiues {
+        padding: 50px;
+        font-size: 16px;
+    }
+
+
+    /* 在宅ワーク */
+    .valuesSec .valuesTitle01 {
+        background: url(../img/zaitaku.png) no-repeat left/contain;
+        width: 80%;
+        margin: 80px auto 0;
+        z-index: -1;
+    }
+
+    .valuesTitle01>h2 {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .textBack {
+        padding: 50px;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+
+    /* 時差出勤 */
+    .valuesSec .valuesTitle02 {
+        background: url(../img/zisa-syukkin.png) no-repeat right center/contain;
+        width: 80%;
+        margin: 80px auto 0;
+        z-index: -1;
+    }
+
+    .valuesTitle02>h2 {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .p6Txt {
+        border-top: 1px dashed #333;
+        border-bottom: 1px dashed #333;
+        display: inline-block;
+        margin: 30px 0;
+        padding: 30px 0;
+    }
+
+
+    /* 資格取得 */
+    .valuesSec .valuesTitle03 {
+        background: url(../img/shikaku.png) no-repeat right center/contain;
+        width: 80%;
+        margin: 80px auto 0;
+        z-index: -1;
+    }
+
+    .valuesTitle03>h2 {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    /* 作業内容 */
+    .worksSec {
+        max-width: 1000px;
+    }
+
+    .works {
+        margin-top: 0px;
+    }
+
+    .textBack2 {
+        padding: 50px 80px;
+        margin: 50px auto 100px;
+    }
+
+    .worksTitle01 {
+        margin: 0 auto;
+    }
+
+    .worksTitle01>h2 {
+        bottom: 30px;
+        padding-left: 50px;
+    }
+
+    .worksTitle02 {
+        margin: 0 auto;
+    }
+
+    .worksTitle02>h2 {
+        bottom: 30px;
+        padding-right: 50px;
+    }
+
+    .worksTitle03 {
+        margin: 0 auto;
+    }
+
+    .worksTitle03>h2 {
+        bottom: 30px;
+        padding-right: 50px;
+    }
+
+    /* フッター */
+    .outLink {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 50;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .engBtn {
+        margin-right: 30px;
+    }
+
+    .litaBtn {
+        margin-left: 30px;
+    }
+
+    .access {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+    .s29 {
+        top: 78%;
+        left: 180px;
+    }
+
+    .s30 {
+        width: 100px;
+        top: 82.8%;
+        left: 80px;
+    }
+
+    .s31 {
+        width: 80px;
+        top: 80.5%;
+        right: 100px;
+    }
+
+    .s32 {
+        top: 83.5%;
+        left: 600px;
+    }
+
+    .s33 {
+        width: 100px;
+        top: 88.8%;
+        left: 250px;
+    }
+
+    .s34 {
+        width: 130px;
+        top: 89%;
+        right: 150px;
+    }
+
+    .s35 {
+        width: 80px;
+        top: 89.5%;
+        right: 500px;
+    }
+
+}
+
+
+@media screen and (min-width: 1300px) {
+
+    #nav li {
+        font-size: 20px;
+    }
+
+    /* 星 */
+    .s01 {
+        width: 80px;
+        top: 2%;
+        left: 120px;
+    }
+
+    .s02 {
+        width: 150px;
+        top: 5%;
+        right: 20px;
+    }
+
+    .s03 {
+        width: 50px;
+        top: 10%;
+        right: 20px;
+    }
+
+    .s04 {
+        width: 30px;
+        left: 50px;
+        top: 12%;
+    }
+
+    .s05 {
+        top: 15%;
+        width: 60px;
+        left: 250px;
+    }
+
+    .s06 {
+        top: 157%;
+        width: 30px;
+        right: 150px;
+    }
+
+    .s07 {
+        width: 100px;
+        right: 200px;
+    }
+
+    .s08 {
+        top: 24%;
+        width: 170px;
+        left: 50px;
+    }
+
+    .s09 {
+        right: 230px;
+    }
+
+    .s11 {
+        left: 330px;
+    }
+
+    .s12 {
+        right: 350px;
+    }
+
+    .s13 {
+        top: 32%;
+        width: 120px;
+        left: 200px;
+    }
+
+    .s14 {
+        width: 60px;
+        right: 80px;
+    }
+
+    .s15 {
+        width: 80px;
+        left: 200px;
+    }
+
+    .s16 {
+        width: 50px;
+        right: 330px;
+    }
+
+    .s17 {
+        left: 330px;
+    }
+
+    .s18 {
+        width: 130px;
+        top: 47%;
+        right: 180px;
+    }
+
+    .s19 {
+        left: 180px;
+    }
+
+    .s21 {
+        left: 220px;
+    }
+
+    .s22 {
+        width: 80px;
+        right: 250px;
+    }
+
+    .s23 {
+        left: 120px;
+    }
+
+    .s24 {
+        right: 50px;
+    }
+
+    .s25 {
+        width: 80px;
+        right: 120px;
+    }
+
+    .s26 {
+        left: 300px;
+    }
+
+    .s27 {
+        left: 100px;
+    }
+
+    .s28 {
+        top: 75%;
+        width: 50px;
+        right: 250px;
+    }
+
+    .s29 {
+        top: 78%;
+        left: 180px;
+    }
+
+    .s30 {
+        width: 100px;
+        top: 82.8%;
+        left: 80px;
+    }
+
+    .s31 {
+        width: 80px;
+        top: 80.5%;
+        right: 100px;
+    }
+
+    .s32 {
+        top: 83.5%;
+        left: 600px;
+    }
+
+    .s33 {
+        width: 100px;
+        top: 88.8%;
+        left: 250px;
+    }
+
+    .s34 {
+        width: 130px;
+        top: 89%;
+        right: 150px;
+    }
+
+    .s35 {
+        width: 80px;
+        top: 89.5%;
+        right: 500px;
+    }
+
+}
